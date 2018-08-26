@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1534872594 "c:/Users/Martin/Dropbox/math/math.tex" "math.pdf" "math" 1534872594
+["pdflatex"] 1535286237 "c:/Users/Martin/Dropbox/forkurs/math/math.tex" "math.pdf" "math" 1535286237
   "C:/Users/Martin/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1534782635 4161328 4cc1610c9c05572c4eb5f87663ede787 ""
-  "C:/Users/Martin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1534785853 80423 3cfba73105275d3ad410701d89fbdf7a ""
+  "C:/Users/Martin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1535286235 80423 3cfba73105275d3ad410701d89fbdf7a ""
   "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1233951854 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -11,6 +11,7 @@
   "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1233951854 940 228d6584342e91276bf566bcf9716b83 ""
   "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
+  "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
@@ -27,9 +28,10 @@
   "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls" 1527456798 19823 fcbc01552b07b608574cbf8e1977e0c0 ""
   "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/inputenc.sty" 1527456814 5052 f2525dfd6e503dc383e90b568c6c9f02 ""
   "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size10.clo" 1527456798 8294 b0f177401f895563eb19304d2389582d ""
-  "c:/Users/Martin/Dropbox/math/math.tex" 1534872593 4889 bb260f2c2b4786a7d8a5d79c619e7bfa ""
-  "math.aux" 1534872594 1642 cf131324698af00094c707619fe35d72 ""
-  "math.tex" 1534872593 4889 bb260f2c2b4786a7d8a5d79c619e7bfa ""
+  "C:/Users/Martin/AppData/Local/Programs/MiKTeX 2.9/tex/latex/cancel/cancel.sty" 1388370247 7592 dd751af313a16a0308545d5bfd7aaaa2 ""
+  "c:/Users/Martin/Dropbox/forkurs/math/math.tex" 1535101181 9760 bef4e83de0cbb2ba527d329dcfc67a00 ""
+  "math.aux" 1535286237 8 a94a2480d3289e625eea47cd1b285758 ""
+  "math.tex" 1535101181 9760 bef4e83de0cbb2ba527d329dcfc67a00 ""
   (generated)
   "math.pdf"
   "math.aux"
