@@ -3,38 +3,56 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{cancel}
+\usepackage{enumitem}
+% \usepackage{txfonts}
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\R}{\mathbb{R}}
+\newcommand\litem[1]{\item{\bfseries#1\space}}
 
-\title{Math}
-\author{Martin Fosby }
+\title{Sinus forkurs matte oppgaver}
+\author{Martin Fosby}
 \date{August 2018}
 
 \begin{document}
+\maketitle
 \pagenumbering{gobble}
 
+\section{}
 \paragraph{1.10}
-\label{1.10}
-\begin{align*}
-   -5 \in \Z 
-\end{align*}
-\begin{align*}
-   -5 \notin \N 
-\end{align*}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
+  \begin{align*}
+    -5 \in \Z
+  \end{align*}
+  }
+\litem{
+  \begin{align*}
+   -5 \notin \N
+  \end{align*}
+  }
+\litem{
 \begin{align*}
    \frac{2}{3} \notin \Z
 \end{align*}
+}
+\litem{
 \begin{align*}
   \frac{2}{3} \in \Q
 \end{align*}
+}
+\litem{
 \begin{align*}
   \sqrt{5} \in \R
 \end{align*}
+}
+\litem{
 \begin{align*}
   \sqrt{5} \notin \Q
 \end{align*}
+}
+\end{enumerate}
 
 \paragraph{1.11}
 \begin{align*}
@@ -319,118 +337,456 @@
 \begin{align*}
   \left(\frac{7}{6} - \frac{2}{9}\right) * \left(\frac{1}{5} + \frac{1}{4}\right) &= \left(\frac{7*3}{6*3} - \frac{2*2}{9*2}\right) * \left(\frac{1*4}{5*4} + \frac{1*5}{4*5}\right) \\
   &= \left(\frac{21}{18} - \frac{4}{18}\right) * \left(\frac{4}{20} + \frac{5}{20}\right) \\
-  &= \frac{17}{18:2} * \frac{9}{20} \\
-  &= 
-  &= \frac{17}{40} \\ 
-
+  &= \frac{17}{18} * \frac{9}{20} \\
+  &= \frac{17}{\cancel{18}_2} * \frac{\cancel{9}_1}{20} \\
+  &= \frac{17 * 1}{20 * 2} \\
+  &= \frac{17}{40}
 \end{align*}
 
 \paragraph{1.24}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
 \begin{align*}
-  \frac{\frac{2}{3}}{\frac{5}{6}} = \frac{\frac{2}{3} * \frac{6}{1}}{\frac{5}{6} * \frac{6}{1}}
+  \frac{\frac{2}{3}}{\frac{5}{6}} &= \frac{\frac{2}{3} * \frac{6}{1}}{\frac{5}{6} * \frac{6}{1}} \\
+  &= \frac{\frac{2}{\cancel{3}_1} * \frac{\cancel{6}_2}{1}}{\frac{5}{\cancel{6}_2} * \frac{\cancel{6}_2}{1}} \\
+  &= \frac{\frac{4}{1}}{\frac{10}{2}} \\
+  &= \frac{4}{5}
 \end{align*}
+}
+\litem{
 \begin{align*}
-  \frac{\frac{21}{36}}{\frac{14}{45}}
+  \frac{\frac{21}{36}}{\frac{14}{45}} &= \frac{21}{36} * \frac{45}{14} \\
+  &= \frac{\cancel{21}_3}{\cancel{36}_4} * \frac{\cancel{45}_5}{\cancel{14}_2} \\
+  &= \frac{3}{4} * \frac{5}{2} \\
+  &= \frac{15}{8}
 \end{align*}
+}
+\litem{
 \begin{align*}
-  \frac{\frac{3}{2} + \frac{5}{8}}{\frac{1}{4} + \frac{25}{2}}
+  \frac{\frac{3}{2} + \frac{5}{8}}{\frac{1}{4} + \frac{25}{2}} &= \frac{\frac{3*8}{2*8} + \frac{5*2}{8*2}}{\frac{1*2}{4*2} + \frac{25*4}{2*4}} \\
+  &= \frac{\frac{24}{16} + \frac{10}{16}}{\frac{2}{8} + \frac{100}{8}} \\
+  &= \frac{\frac{34}{16}}{\frac{102}{8}} \\
+  &= \frac{34}{16} * \frac{8}{102} \\
+  &= \frac{\cancel{34}_1}{\cancel{16}_2} * \frac{\cancel{8}_1}{\cancel{102}_3} \\
+  &= \frac{1}{2} * \frac{1}{3} \\
+  &= \frac{1}{6}
 \end{align*}
+}
+\litem{
 \begin{align*}
-  \frac{3 + \frac{4}{3}}{\frac{5}{12} + 5}
+  \frac{3 + \frac{4}{3}}{\frac{5}{12} + 5} &= \frac{\frac{3*3}{1*3} + \frac{4*1}{3*1}}{\frac{5*1}{12*1} + \frac{5*12}{1*12}} \\
+  &= \frac{\frac{9}{3} + \frac{4}{3}}{\frac{5}{12} + \frac{60}{12}} \\
+  &= \frac{\frac{13}{3}}{\frac{65}{12}} \\
+  &= \frac{13}{3} * \frac{12}{65} \\
+  &= \frac{\cancel{13}_1}{\cancel{3}_1} * \frac{\cancel{12}_4}{\cancel{65}_5} \\
+  &= \frac{1}{1} * \frac{4}{5} \\
+  &= \frac{4}{5}
 \end{align*}
-
-
+}
+\end{enumerate}
 
 \paragraph{1.30}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
 \begin{align*}
-  2x - 5y + 3x + 7y + 1 &= 5x + 2y + 1 
+  2x - 5y + 3x + 7y + 1 &= 2x + 3x -5y + 7y + 1 \\
+  &= 5x + 2y + 1
 \end{align*}
-\begin{align*}
-  a^2 + 2a + 3 + a^2 - 3a -1 &= 2a^2 - a + 2
+}
+\litem{
+  \begin{align*}
+  a^2 + 2a + 3 + a^2 - 3a -1 &= a^2 + a^2 + 2a - 3a + 3 - 1 \\
+  &= 2a^2 - a + 2
 \end{align*}
-\begin{align*}
-  2x^2 + x + y^2 - 2x - 2y^2 &= 2x^2 - x - y^2
+}
+\litem{
+  \begin{align*}
+  2x^2 + x + y^2 - 2x - 2y^2 &= 2x^2 + y^2 - 2y^2 + x - 2x \\
+  &= 2x^2 - y^2 - x
 \end{align*}
-\begin{align*}
-  2xy + xy^2 - x^2y - 2xy^2 - yx &= xy - xy^2 - x^2y
+}
+\litem{
+  \begin{align*}
+  2xy + xy^2 - x^2y - 2xy^2 - yx &= 2xy -yx + xy^2 - 2xy^2 - x^2y \\
+  &=  xy + xy^2 - x^2y
 \end{align*}
+}
+\end{enumerate}
 
 \paragraph{1.31}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
 \begin{align*}
   (5x + y) + (2x - y) &= 5x + y + 2x - y \\
-  &= 7x 
+  &= 7x + y - y \\
+  &= 7x
 \end{align*}
+}
+\litem{
 \begin{align*}
   a + 2b - (-a + b) &= a + 2b + a - b \\
+  &= a + a + 2b - b \\
   &= 2a + b
 \end{align*}
+}
+\litem{
 \begin{align*}
   (x^2 + 2x + 1) - (x^2 - 2x + 1) &= x^2 + 2x + 1 - x^2 + 2x - 1 \\
-  &= 4x 1 - 1 \\
+  &=x^2 - x^2 + 2x + 2x + 1 - 1 \\
+  &= 4x + 1 - 1 \\
   &= 4x
 \end{align*}
+}
+\litem{
 \begin{align*}
   2a^2 - a - 3 + (-a^2 + a + 3) &= 2a^2 - a - 3 - a^2 + a + 3 \\
-  &= a^2 
+  &= 2a^2 - a^2 - a + a - 3 + 3 \\
+  &= a^2
 \end{align*}
+}
+\end{enumerate}
 
 \paragraph{1.32}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
 \begin{align*}
   2(x + 4) &= 2*x + 2 * 4 \\
   &= 2x + 8
 \end{align*}
+}
+\litem{
 \begin{align*}
   -2(t - 3) &= -2 * t - (-2 * 3) \\
+  &= -2t + 2 * 3 \\
   &= -2t + 6
 \end{align*}
+}
+\litem{
 \begin{align*}
   3(2x + 1 ) - 2(3x + 1) &= 3 * 2x + 3 * 1 - 2 * 3x - 2 * 1 \\
   &= 6x + 3 - 6x - 2 \\
+  &= 6x - 6x + 3 - 2 \\
   &= 3 - 2 \\ 
   &= 1
 \end{align*}
+}
+\litem{
 \begin{align*}
-  5(x^2 + 3x + 2) - 5(x^2 + 1) &= 5x^2 + 15x + 10 - 5x^2 - 5 \\
+  5(x^2 + 3x + 2) - 5(x^2 + 1) &= 5 * x^2 + 5 * 3x + 5 * 2 - 5 * x^2 - 5 * 1 \\
+  &= 5x^2 + 15x + 10 - 5x^2 - 5 \\
+  &= 5x^2 - 5x^2 + 15x + 10 -5 \\
   &= 15x + 10 - 5 \\
   &= 15x + 5
 \end{align*}
+}
+\end{enumerate}
 
 \paragraph{1.33}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
 \begin{align*}
-  2(2a - b) + 3(-2a + 3b) &= 4a - 2b - 6a + 9b \\
+  2(2a - b) + 3(-2a + 3b) &= 2 * 2a - 2 * b + 3 * -2a + 3 * 3b \\
+  &= 4a - 2b - 6a + 9b \\
+  &= 4a - 6a - 2b + 9b \\
   &= -2a + 7b
 \end{align*}
+}
+\litem{
 \begin{align*}
-  2a(ab - b^2) - 2b(a^2 - ab) &= 2ba^2 - 2ab^2 - 2ba^2 + 2ab^2 \\
+  2a(ab - b^2) - 2b(a^2 - ab) &= 2a * ab - 2a * b^2 - 2b * a^2 + 2b * ab \\
+  &= 2ba^2 - 2ab^2 - 2ba^2 + 2ab^2 \\
   &= 2ba^2 - 2ba^2 + 2ab^2 - 2ab^2 \\
   &= 0
 \end{align*}
+}
+\litem{
 \begin{align*}
-  (x + 1)(2x - 3) &= 
+  (x + 1)(2x - 3) &= x + 1 * (2x - 3) \\
+  &= 2x^2 + 1 - 3 \\
+  &= x + 2x - 3 \\
+  &= 3x - 3
 \end{align*}
+}
+\litem{
 \begin{align*}
-  5(x^2 + 3x + 2) - 5(x^2 + 1) &= 5x^2 + 15x + 10 - 5x^2 - 5 \\
+  5(x^2 + 3x + 2) - 5(x^2 + 1) &= 5 * x^2 + 5 * 3x + 5 * 2 - 5 * x^2 - 5 * 1 \\
+  &= 5x^2 + 15x + 10 - 5x^2 - 5 \\
+  &= 5x^2 - 5x^2 + 15x + 10 - 5 \\
   &= 15x + 10 - 5 \\
   &= 15x + 5
 \end{align*}
+}
+\end{enumerate}
 
 \paragraph{1.40}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
 \begin{align*}
   \frac{a}{2} + \frac{a}{3} + \frac{a}{6} &= \frac{a}{2*3} + \frac{a}{3*2} + \frac{a}{6} \\
   &= \frac{a}{6} + \frac{a}{6} + \frac{a}{6} \\
   &= \frac{x}{y}
 \end{align*}
+}
+\litem{
 \begin{align*}
   2a(ab - b^2) - 2b(a^2 - ab) &= 2ba^2 - 2ab^2 - 2ba^2 + 2ab^2 \\
   &= 2ba^2 - 2ba^2 + 2ab^2 - 2ab^2 \\
   &= 0
 \end{align*}
+}
+\litem{
 \begin{align*}
   (x + 1)(2x - 3) &= 
 \end{align*}
+}
+\litem{
 \begin{align*}
   5(x^2 + 3x + 2) - 5(x^2 + 1) &= 5x^2 + 15x + 10 - 5x^2 - 5 \\
   &= 15x + 10 - 5 \\
   &= 15x + 5
 \end{align*}
+}
+\end{enumerate}
+
+\paragraph{1.50}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
+\begin{align*}
+  3^2 &= 3 * 3 \\
+  &= 9
+\end{align*}
+}
+\litem{
+\begin{align*}
+  (-3)^2 &= (-3) * (-3) \\
+  &= 9
+\end{align*}
+}
+\litem{
+\begin{align*}
+  3^3 &= 3 * 3 * 3 \\
+  &= 27
+\end{align*}
+}
+\litem{
+\begin{align*}
+  (-3)^2 &= (-3) * (-3) \\
+  &= 9
+\end{align*}
+}
+\end{enumerate}
+
+\paragraph{1.51}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
+\begin{align*}
+  3^2 * 3^3 &= 3 * 3 * 3 * 3 * 3 \\
+  &=3^2+^3 \\
+  &= 3^5 \\
+  &=  243
+\end{align*}
+}
+\litem{
+\begin{align*}
+  2^4 * 2^6 &= 2^4+^6 \\
+  &= 2^10
+\end{align*}
+}
+\litem{
+\begin{align*}
+  5^3 * 5 &= 5^3+^1 \\
+  &= 5^4
+\end{align*}
+}
+\litem{
+\begin{align*}
+  10^2 * 10^3 * 10^5 &= 10^2+^3+^5 \\
+  &= 10^10
+\end{align*}
+}
+\litem{
+\begin{align*}
+  (2 * 10^4) * (5 * 10^3) &= 2 * 5 * 10^4 * 10^3 \\
+  &= 10 * 10^4+^3 \\
+  &= 10 * 10^7 \\
+  &= 10^7+^1 \\
+  &= 10^8
+\end{align*}
+}
+\end{enumerate}
+
+\paragraph{1.52}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
+\begin{align*}
+  \frac{2^4}{2^3} &= 2^{4-3} \\
+  &= 2^1 \\
+  &= 2
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{10^5}{10^3} &= 10^{5-3} \\
+  &= 10^2 \\
+  &= 100
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{4^3 * 4^2}{4^4} &= \frac{4^{3+2}}{4^4} \\
+  &= \frac{4^5}{4^4} \\
+  &= 4^{5-4} \\
+  &= 4^1 \\
+  &= 4
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{3^8 * 3^6}{3^5 * 3^7} &= \frac{3^{8+6}}{3^{5+7}} \\
+  &= \frac{3^14}{3^12} \\
+  &= 3^{14-12} \\
+  &= 3^2 \\
+  &= 9
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{2 * 10^5 * 6 * 10^2}{4 * 10^4} &= \frac{2 * 6 * 10^{5+2}}{4 * 10^4} \\
+  &= \frac{12 * 10^7}{4 * 10^4} \\
+  &= \frac{12 * 10^{7-4}}{4} \\
+  &= \frac{12 * 10^3}{4} \\ 
+  &= \frac{12 * 1000}{4} \\
+  &= \frac{12000}{4} \\
+  &= 3000
+\end{align*}
+}
+\end{enumerate}
+
+\paragraph{1.53}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
+\begin{align*}
+  5^0 &= \frac{1}{5}
+\end{align*}
+}
+\litem{
+\begin{align*}
+  (-2)^0 &= \frac{1}{-2}
+\end{align*}
+}
+\litem{
+\begin{align*}
+  5^{-1} &= \frac{1}{5^1}
+\end{align*}
+}
+\litem{
+\begin{align*}
+  2^{-4} &= \frac{1}{2^4}
+\end{align*}
+}
+\litem{
+\begin{align*}
+  10^{-2} &= \frac{1}{10^2}
+\end{align*}
+}
+\litem{
+\begin{align*}
+  10^0 &= 1
+\end{align*}
+}
+\litem{
+\begin{align*}
+  10^{-4} &= \frac{1}{10^4}
+\end{align*}
+}
+\end{enumerate}
+
+\paragraph{1.54}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
+\begin{align*}
+  2^3 - 2^{-4} &= 2^3 - \frac{1}{2^4} \\
+  &= \frac{1 * 2^3}{2^4} \\
+  &= \frac{1 * 8}{16} \\
+  &= \frac{8}{16} \\
+  &= 2
+\end{align*}
+}
+\litem{
+\begin{align*}
+  3^{-4} * 3^5 &= 3^{-4 + 5} \\
+  &= 3^1 \\
+  &= 3 
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{3^{-2}}{3^{-3}} &= \frac{3^3}{3^2} \\
+  &= 3^{3 - 2} \\
+  &= 3^1 \\
+  &= 3
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{2^{-3} * 2^5}{2^3 * 2^{-1}} &= \frac{2^{-3 + 5}}{2^{3 - 1}} \\
+  &= \frac{2^2}{2^2} \\
+  &= \frac{4}{4} \\
+  &= 1
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{a^4 * a^{-3}}{a^{-2} * a} &= \frac{a^{4 - 3}}{a^{-2 + 1}} \\ 
+  &= \frac{a^1}{a^{-1}} \\
+  &= a * a^{1} \\
+  &= a^2
+\end{align*}
+}
+\end{enumerate}
+
+\paragraph{1.54}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
+\begin{align*}
+  2^3 - 2^{-4} &= 2^3 - \frac{1}{2^4} \\
+  &= \frac{1 * 2^3}{2^4} \\
+  &= \frac{1 * 8}{16} \\
+  &= \frac{8}{16} \\
+  &= 2
+\end{align*}
+}
+\litem{
+\begin{align*}
+  3^{-4} * 3^5 &= 3^{-4 + 5} \\
+  &= 3^1 \\
+  &= 3 
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{3^{-2}}{3^{-3}} &= \frac{1}{3^2} * \frac{1}{3^3} \\
+  &= \frac{1}{3^{2+3}} \\
+  &= \frac{1}{3^5} \\
+  &= \frac{1}{243} \\
+  &= 243
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{2^{-3} * 2^5}{2^3 * 2^{-1}} &= \frac{2^{-3 + 5}}{2^{3 - 1}} \\
+  &= \frac{2^2}{2^2} \\
+  &= \frac{4}{4} \\
+  &= 1
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{a^4 * a^{-3}}{a^{-2} * a} &= \frac{a^{4 - 3}}{a^{-2 + 1}} \\ 
+  &= \frac{a^1}{a^{-1}} \\
+  &= a * a^{1} \\
+  &= a^2
+\end{align*}
+}
+\end{enumerate}
 \end{document}
