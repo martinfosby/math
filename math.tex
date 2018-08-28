@@ -501,10 +501,9 @@
 }
 \litem{
 \begin{align*}
-  (x + 1)(2x - 3) &= x + 1 * (2x - 3) \\
-  &= 2x^2 + 1 - 3 \\
-  &= x + 2x - 3 \\
-  &= 3x - 3
+  (x + 1)(2x - 3) &= x * 2x + x * -3 + 1 * 2x - 3 \\
+  &= 2x^2 - x3 + 2x - 3 \\
+  &= 2x^2 - x - 3
 \end{align*}
 }
 \litem{
@@ -514,6 +513,45 @@
   &= 5x^2 - 5x^2 + 15x + 10 - 5 \\
   &= 15x + 10 - 5 \\
   &= 15x + 5
+\end{align*}
+}
+\end{enumerate}
+
+\paragraph{1.34}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
+\begin{align*}
+  (2x - 1)(x + 3) + (x - 1)(x - 4) &= 2x * x + 2x * 3 - 1 * x - 1 * 3 + x * x + x * -4 - 1 * x - 1 * -4 \\ 
+  &= 3x^2 - 3 + 4 \\
+  &= 3x^2 + 1
+\end{align*}
+}
+\litem{
+\begin{align*}
+  2(x - 1)(2x + 3) &= 2(x * 2x + x * 3 - 1 * 2x - 1 * 3) \\
+  &= 2(2x^2 + 3x - 2x - 3) \\
+  &= 2(2x^2 + x - 3) \\
+  &= 2 * 2x^2 + 2 * x + 2 * (-3) \\
+  &= 4x^2 + 2x - 6
+\end{align*}
+}
+\litem{
+\begin{align*}
+  (x + 3)(4x - 1) - (2x + 1)(2x - 3) &= x * 4x + x * (-1) + 3 * 4x + 3 * (-1) - 2x * 2x - 2x * (-3) - 1 * 2x - 1 * (- 3) \\
+  &= 4x^2 - x + 12x - 3 - 4x^2 + 6x - 2x + 3 \\
+  &= 4x^2 - 4x^2 - x + 12x + 6x -2x - 3 + 3 \\
+  &= 15x
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{3}{4}(t + 3)(8t - 4) &= (t + 3)(\frac{3}{4} * 8t - \frac{3}{4} * 4) \\
+  &= (t + 3)(\frac{3 * \cancel{8}_2t}{\cancel{4}_1} - \frac{3 * \cancel{4}}{\cancel{4}}) \\ 
+  &= (t + 3)(3 * 2t - 3) \\
+  &= (t + 3)(6t - 3) \\
+  &= (t * 6t + t * (-3)) + (3 * 6t + 3 * (-3)) \\
+  &= 6t^2 - 3t + 18t - 9 \\
+  &= 6t^2 + 15t - 9
 \end{align*}
 }
 \end{enumerate}
@@ -536,7 +574,9 @@
 }
 \litem{
 \begin{align*}
-  (x + 1)(2x - 3) &= 
+  (x + 1)(2x - 3) &= x * 2x + x * (-3) + 1 * 2x + 1 * (-3) \\
+  &= 2x^2 - 3x + 2x - 3 \\
+  &= 2x^2 - x - 3
 \end{align*}
 }
 \litem{
@@ -745,39 +785,30 @@
 }
 \end{enumerate}
 
-\paragraph{1.54}
+\paragraph{1.60}
 \begin{enumerate}[label=\emph{\alph*})]
 \litem{
 \begin{align*}
-  2^3 - 2^{-4} &= 2^3 - \frac{1}{2^4} \\
-  &= \frac{1 * 2^3}{2^4} \\
-  &= \frac{1 * 8}{16} \\
-  &= \frac{8}{16} \\
-  &= 2
+  \left(\frac{1}{2}\right)^3 &= \frac{1^3}{2^3} \\
+  &= \frac{1}{8}
 \end{align*}
 }
 \litem{
 \begin{align*}
-  3^{-4} * 3^5 &= 3^{-4 + 5} \\
-  &= 3^1 \\
-  &= 3 
+  \left(\frac{2}{3}\right)^3 &= \frac{2^3}{3^3} \\
+  &= \frac{8}{27}
 \end{align*}
 }
 \litem{
 \begin{align*}
-  \frac{3^{-2}}{3^{-3}} &= \frac{1}{3^2} * \frac{1}{3^3} \\
-  &= \frac{1}{3^{2+3}} \\
-  &= \frac{1}{3^5} \\
-  &= \frac{1}{243} \\
-  &= 243
+  \left(\frac{1}{10}\right)^3 &= \frac{1^3}{10^3} \\
+  &= \frac{1}{1000}
 \end{align*}
 }
 \litem{
 \begin{align*}
-  \frac{2^{-3} * 2^5}{2^3 * 2^{-1}} &= \frac{2^{-3 + 5}}{2^{3 - 1}} \\
-  &= \frac{2^2}{2^2} \\
-  &= \frac{4}{4} \\
-  &= 1
+  \left(-\frac{2}{3}\right)^4 &= - \frac{2^4}{3^4} \\
+  &= - \frac{16}{81}
 \end{align*}
 }
 \litem{
@@ -786,6 +817,122 @@
   &= \frac{a^1}{a^{-1}} \\
   &= a * a^{1} \\
   &= a^2
+\end{align*}
+}
+\end{enumerate}
+
+\paragraph{1.61}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
+\begin{align*}
+  \left(\frac{2}{3}\right)^3 * 3^3 &= \frac{2^3 * 3^3}{3^3} \\
+  &= \frac{8 * 27}{27} \\
+  &= \frac{2 * 2 * 2 * 3 * 3 * 3}{3 * 3 * 3} \\ 
+  &= \frac{2 * 2 * 2 * \cancel{3} * \cancel{3} * \cancel{3}}{\cancel{3} * \cancel{3} * \cancel{3}} \\
+  &= \frac{8}{1}
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{2^5}{5^2} * \left(\frac{5}{2}\right)^3 &= \frac{2^5 * 5^3}{5^2 * 2^3} \\
+  &= \frac{2 * 2 * 2 * 2 * 2 * 5 * 5 * 5}{5 * 5 * 2 * 2 * 2} \\
+  &= \frac{2 * 2 * \cancel{2} * \cancel{2} * \cancel{2} * 5 * \cancel{5} * \cancel{5}}{\cancel{5} * \cancel{5} * \cancel{2} * \cancel{2} * \cancel{2}} \\
+  &= \frac{4 * 5}{1} \\
+  &= \frac{20}{1}
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \left(\frac{x}{2}\right)^2 &= \frac{x^2}{2^2} \\
+  &= \frac{x^2}{4}
+\end{align*}
+}
+\litem{
+\begin{align*}
+  3^5 * \left(\frac{x}{3}\right)^4 &= \frac{3^5 * x^4}{3^4} \\
+  &= \frac{3 * \cancel{3} * \cancel{3} * \cancel{3} * \cancel{3} * x * x * x * x}{\cancel{3} * \cancel{3} * \cancel{3} * \cancel{3}} \\
+  &= 3x^4
+\end{align*}
+}
+\end{enumerate}
+
+\paragraph{1.62}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
+\begin{align*}
+  \left(5 * 10^3\right)^3 &= 5^3 * 10^{3*3} \\
+  &= 5^3 * 10^9 \\
+  &= 125 * 10^9 \\
+  &= 125 000 000 000 
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \left(2 * 10^2\right)^{-1} &= 2^{-1} * 10^{2 * (-1)} \\
+  &= 2^{-1} * 10^{-2} \\
+  &= \frac{1}{2 * 10^2} \\ 
+  &= \frac{1}{200}
+  &= 0.005
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \left(3 * 10^{-3}\right)^2 * \left(3 * 10^{-2}\right)^{-1} &= 3^2 * 10^{-3 * 2} * 3^{-1} * 10^{-2 * (-1)} \\
+  &= 3^2 * 10^{-6} * 3^{-1} * 10^2 \\
+  &= 3^{2-1} * 10^{-6 + 2} \\
+  &= 3 * 10^{-4} \\
+  &= \frac{3}{10^4} \\
+  &= \frac{3}{10000} \\
+  &= 0.0003
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{5 * 10^{-2} * 9 * 10^4}{3 * 10^3} &= \frac{5 * 9 * 10^{-2 + 4}}{3 * 10^3} \\
+  &= \frac{5 * 9 * 10^{2}}{3 * 10^3} \\
+  &= \frac{5 * \cancel{9}_3 * \cancel{100}}{\cancel{3} * \cancel{1000}_{10}} \\
+  &= \frac{5 * 3}{10} \\ 
+  &= \frac{15}{10} \\
+  &= 1.5
+\end{align*}
+}
+\end{enumerate}
+
+\paragraph{1.63}
+\begin{enumerate}[label=\emph{\alph*})]
+\litem{
+\begin{align*}
+  x^7
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \left(2 * 10^2\right)^{-1} &= 2^{-1} * 10^{2 * (-1)} \\
+  &= 2^{-1} * 10^{-2} \\
+  &= \frac{1}{2 * 10^2} \\ 
+  &= \frac{1}{200}
+  &= 0.005
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \left(3 * 10^{-3}\right)^2 * \left(3 * 10^{-2}\right)^{-1} &= 3^2 * 10^{-3 * 2} * 3^{-1} * 10^{-2 * (-1)} \\
+  &= 3^2 * 10^{-6} * 3^{-1} * 10^2 \\
+  &= 3^{2-1} * 10^{-6 + 2} \\
+  &= 3 * 10^{-4} \\
+  &= \frac{3}{10^4} \\
+  &= \frac{3}{10000} \\
+  &= 0.0003
+\end{align*}
+}
+\litem{
+\begin{align*}
+  \frac{5 * 10^{-2} * 9 * 10^4}{3 * 10^3} &= \frac{5 * 9 * 10^{-2 + 4}}{3 * 10^3} \\
+  &= \frac{5 * 9 * 10^{2}}{3 * 10^3} \\
+  &= \frac{5 * \cancel{9}_3 * \cancel{100}}{\cancel{3} * \cancel{1000}_{10}} \\
+  &= \frac{5 * 3}{10} \\ 
+  &= \frac{15}{10} \\
+  &= 1.5
 \end{align*}
 }
 \end{enumerate}
