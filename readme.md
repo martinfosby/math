@@ -1,3 +1,10 @@
+---
+author:
+- Martin Fosby
+date: August 2018
+title: Sinus forkurs matte oppgaver
+---
+
 \maketitle
 \pagenumbering{gobble}
 #### 1.10
